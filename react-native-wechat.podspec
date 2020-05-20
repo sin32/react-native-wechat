@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency 'WechatOpenSDK', '~> 1.8.1'
+  s.dependency 'WechatOpenSDK', '~> 1.8.7.1'
   s.ios.frameworks = 'XCTest'
 
   s.dependency 'React'
